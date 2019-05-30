@@ -3,11 +3,11 @@ package mybasic;
 public class TryCatch {
     public static void main(String[]args){
 
-        int apple=5;
-        int orrange=20;
+        int apple=20;
+        int orange=0;
 
         try {
-            int result=apple/orrange;
+            int result=apple/orange;
 
             System.out.println("Result="+result);
         }
@@ -15,7 +15,7 @@ public class TryCatch {
         catch(Exception e){
 
 
-            System.out.println("cant devided"+e);
+            System.out.println("can't divide--"+e);
 
 
         }
