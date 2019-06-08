@@ -3,7 +3,7 @@ package mybasic;
 public class TryCatch {
     public static void main(String[]args){
 
-        int apple=20;
+        int apple=30;
         int orange=0;
 
         try {
